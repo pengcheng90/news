@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <RadioGroup
+        android:padding="@dimen/padding_middle"
+        android:id="@+id/radiogroup"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <RadioButton
+            android:id="@+id/tab_mainhome"
+            style="@style/BootomButton"
+            android:drawableTop="@drawable/tab_homeselector"
+            android:text="首页" />
+        <RadioButton
+            android:id="@+id/tab_weixinthermal"
+            style="@style/BootomButton"
+            android:drawableTop="@drawable/tab_weixinselector"
+            android:text="微信热文" />
+        <RadioButton
+            android:id="@+id/tab_joke"
+            style="@style/BootomButton"
+            android:drawableTop="@drawable/tab_smartserviceselectoe"
+            android:text="笑话" />
+        <RadioButton
+            android:id="@+id/tab_me"
+            style="@style/BootomButton"
+            android:drawableTop="@drawable/tab_meselectoe"
+            android:text="我的" />
+    </RadioGroup>
+    <View
+        android:id="@+id/line"
+        android:layout_above="@id/radiogroup"
+        android:background="@color/bg_bootom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line1"/>
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_above="@id/line"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></FrameLayout>
+
+</RelativeLayout>

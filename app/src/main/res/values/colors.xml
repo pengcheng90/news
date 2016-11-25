@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- backgroud-->
+    <color name="bg_bootom">#EAEAEA</color>
+    <color name="bg_joke">#C5C1AA</color>
+    <color name="bg1_joke">#CDC5BF</color>
+
+<!--text-->
+    <color name="black">#000</color>
+    <color name="huise">#4F4F4F</color>
+    <color name="white">#fff</color>
+    <color name="white1">#F0F0F0</color>
+
+
+    <color name="colorPrimary">#A2B5CD</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="main">#00bb9c</color>
+</resources>

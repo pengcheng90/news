@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<TextView
+    android:textColor="@color/white"
+    android:textSize="@dimen/padding_2lager"
+    android:background="@color/main"
+    android:padding="@dimen/padding_lager"
+    android:gravity="center"
+    android:text="个人中心"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line2"
+        android:background="@color/bg_bootom" />
+
+    <LinearLayout
+        android:id="@+id/load"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_lager"
+        android:padding="@dimen/padding_lager">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/head" />
+
+        <TextView
+            android:id="@+id/user"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/padding_lager"
+            android:gravity="center_vertical"
+            android:text="点击登陆" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line10"
+        android:background="@color/bg_bootom" />
+
+    <TextView
+        android:id="@+id/collect"
+        style="@style/meText"
+        android:text="收藏" />
+    <View
+        android:background="@color/bg_bootom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line2"
+        />
+
+    <TextView
+        android:id="@+id/feedback"
+        style="@style/meText"
+        android:text="反馈" />
+    <View
+        android:background="@color/bg_bootom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line2"
+        />
+
+    <TextView
+        android:id="@+id/about"
+        style="@style/meText"
+        android:text="关于" />
+    <View
+        android:background="@color/bg_bootom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line2"
+        />
+
+    <TextView
+        android:id="@+id/setting"
+        style="@style/meText"
+        android:text="设置" />
+
+</LinearLayout>

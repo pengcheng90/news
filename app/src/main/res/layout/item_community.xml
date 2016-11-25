@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher" />
+
+
+    <TextView
+        android:id="@+id/author_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/pic"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/title"
+        android:layout_toRightOf="@id/pic"
+        android:gravity="bottom|right"
+        android:padding="@dimen/padding_lager"
+        android:text="思远军事"
+        android:textSize="@dimen/text_small" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line4"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bg_bootom" />
+
+    <TextView
+        android:padding="@dimen/padding_2lager"
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/pic"
+        android:paddingBottom="@dimen/padding_lager"
+        android:paddingRight="@dimen/padding_2lager"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_middle" />
+</RelativeLayout>

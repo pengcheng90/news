@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:padding="@dimen/padding_2middle">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/padding_4lager"
+            android:text="设置"
+            android:textSize="@dimen/text_lager" />
+    </LinearLayout>
+    <View
+        android:background="@color/bg_bootom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line2"/>
+    <Button
+        android:layout_gravity="center_vertical"
+        android:layout_margin="@dimen/padding_4lager"
+        android:text="退出登录"
+        android:background="@color/main"
+        android:id="@+id/logOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

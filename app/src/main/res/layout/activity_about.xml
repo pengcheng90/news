@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:padding="@dimen/padding_2middle">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/padding_4lager"
+            android:text="关于"
+            android:textSize="@dimen/text_lager" />
+    </LinearLayout>
+    <View
+        android:background="@color/bg_bootom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line2"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_4lager"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/news" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_4lager"
+        android:text="\t\t\t今日看点是一款集新闻，微信热文，笑话段子，趣图为主的一款资讯阅读软件，
+        如果您在使用中发现问题，请在意见反馈中提交您的建议，本软件会持续更新，为您带来更好的体验！谢谢！"
+        android:textSize="@dimen/text_lager" />
+
+</LinearLayout>
